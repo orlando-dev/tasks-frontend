@@ -1,4 +1,4 @@
-package br.ce.wcaquino.tasksfrontend.controller;
+package br.ce.orlando.tasksfrontend.controller;
 
 import java.util.List;
 import java.util.regex.Matcher;
@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.client.RestTemplate;
 
-import br.ce.wcaquino.tasksfrontend.model.Todo;
+import br.ce.orlando.tasksfrontend.model.Todo;
 
 @Controller
 public class TasksController {
